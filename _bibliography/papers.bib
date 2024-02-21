@@ -1,85 +1,127 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@inproceedings{melzi2023gandiffface,
+  title={GANDiffFace: Controllable Generation of Synthetic Datasets for Face Recognition with Realistic Variations},
+  author={Melzi, Pietro and Rathgeb, Christian and Tolosana, Ruben and Vera-Rodriguez, Ruben and Lawatsch, Dominik and Domin, Florian and Schaubert, Maxim},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops},
+  year={2023},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  abstract={Face recognition systems have significantly advanced in recent years, driven by the availability of large-scale datasets. However, several issues have recently came up, including privacy concerns that have led to the discontinuation of well-established public datasets. Synthetic datasets have emerged as a solution, even though current synthesis methods present other drawbacks such as limited intra-class variations, lack of realism, and unfair representation of demographic groups. This study introduces GANDiffFace, a novel framework for the generation of synthetic datasets for face recognition that combines the power of Generative Adversarial Networks (GANs) and Diffusion models to overcome the limitations of existing synthetic datasets. In GANDiffFace, we first propose the use of GANs to synthesize highly realistic identities and meet target demographic distributions. Subsequently, we fine-tune Diffusion models with the images generated with GANs, synthesizing multiple images of the same identity with a variety of accessories, poses, expressions, and contexts. We generate multiple synthetic datasets by changing GANDiffFace settings, and compare their mated and non-mated score distributions with the distributions provided by popular real-world datasets for face recognition, i.e. VGG2 and IJB-C. Our results show the feasibility of the proposed GANDiffFace, in particular the use of Diffusion models to enhance the (limited) intra-class variations provided by GANs towards the level of real-world datasets.},
+  html={https://openaccess.thecvf.com/content/ICCV2023W/AMFG/html/Melzi_GANDiffFace_Controllable_Generation_of_Synthetic_Datasets_for_Face_Recognition_with_ICCVW_2023_paper.html},
+  preview={gandiff.jpg}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{melzi2024synthetic,
+  title={Synthetic Data for the Mitigation of Demographic Biases in Face Recognition},
+  author={Melzi, Pietro and Rathgeb, Christian and Tolosana, Ruben and Vera-Rodriguez, Ruben and Morales, Aythami and Lawatsch, Dominik and Domin, Florian and Schaubert, Maxim},
+  booktitle={Proceedings of the IEEE International Joint Conference on Biometrics},
+  year={2023},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
+  abstract={This study investigates the possibility of mitigating the demographic biases that affect face recognition technologies through the use of synthetic data. Demographic biases have the potential to impact individuals from specific demographic groups, and can be identified by observing disparate performance of face recognition systems across demographic groups. They primarily arise from the unequal representations of demographic groups in the training data. In recent times, synthetic data have emerged as a solution to some problems that affect face recognition systems. In particular, during the generation process it is possible to specify the desired demographic and facial attributes of images, in order to control the demographic distribution of the synthesized dataset, and fairly represent the different demographic groups. We propose to fine-tune with synthetic data existing face recognition systems that present some demographic biases. We use synthetic datasets generated with GANDiffFace, a novel framework able to synthesize datasets for face recognition with controllable demographic distribution and realistic intra-class variations. We consider multiple datasets representing different demographic groups for training and evaluation. Also, we fine-tune different face recognition systems, and evaluate their demographic fairness with different metrics. Our results support the proposed approach and the use of synthetic data to mitigate demographic biases in face recognition.},
+  html={https://arxiv.org/abs/2402.01472},
+  preview={gandiff.jpg}
+}
+
+@inproceedings{melzi2024frcsyn,
+  title={FRCSyn Challenge at WACV 2024: Face Recognition Challenge in the Era of Synthetic Data},
+  author={Melzi, Pietro and Tolosana, Ruben and Vera-Rodriguez, Ruben and Kim, Minchul and Rathgeb, Christian and Liu, Xiaoming and DeAndres-Tame, Ivan and Morales, Aythami and Fierrez, Julian and Ortega-Garcia, Javier and others},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision Workshops},
+  pages={892--901},
+  year={2024},
+  bibtex_show={true},
+  abstract={Despite the widespread adoption of face recognition technology around the world, and its remarkable performance on current benchmarks, there are still several challenges that must be covered in more detail. This paper offers an overview of the Face Recognition Challenge in the Era of Synthetic Data (FRCSyn) organized at WACV 2024. This is the first international challenge aiming to explore the use of synthetic data in face recognition to address existing limitations in the technology. Specifically, the FRCSyn Challenge targets concerns related to data privacy issues, demographic biases, generalization to unseen scenarios, and performance limitations in challenging scenarios, including significant age disparities between enrollment and testing, pose variations, and occlusions. The results achieved in the FRCSyn Challenge, together with the proposed benchmark, contribute significantly to the application of synthetic data to improve face recognition technology.},
+  html={https://openaccess.thecvf.com/content/WACV2024W/FRCSyn/html/Melzi_FRCSyn_Challenge_at_WACV_2024_Face_Recognition_Challenge_in_the_WACVW_2024_paper.html},
+  preview={frcsyn.jpg}
+}
+
+@article{melzi2023ecg,
+  title={ECG biometric recognition: Review, system proposal, and benchmark evaluation},
+  author={Melzi, Pietro and Tolosana, Ruben and Vera-Rodriguez, Ruben},
+  journal={IEEE Access},
+  year={2023},
+  publisher={IEEE},
+  bibtex_show={true},
+  abstract={ECGs have shown unique patterns to distinguish between different subjects and present important advantages compared to other biometric traits. However, the lack of public data and standard experimental protocols makes the evaluation and comparison of novel ECG methods difficult. In this study, we perform extensive analysis and comparison of different scenarios in ECG biometric recognition. We consider verification and identification tasks, single- and multi-session settings, and single- and multi-lead ECGs recorded with traditional and user-friendly devices. We also present ECGXtractor, a robust Deep Learning technology trained with an in-house large-scale database, and evaluate it with detailed experimental protocol and public databases. With the popular PTB database, we achieve Equal Error Rates of 0.14% and 2.06% in single- and multi-session verification. The results achieved prove the soundness of ECGXtractor across multiple scenarios and databases. We release the source code, experimental protocol details, and pre-trained models in GitHub to advance in the field.},
+  html={https://ieeexplore.ieee.org/abstract/document/10043674/},
+  preview={ecg.jpg}
+  
+}
+
+@article{melzi2023prediction,
+  title={Prediction of Atrial Fibrillation from Sinus-Rhythm Electrocardiograms Based on Deep Neural Networks: Analysis of Time Intervals and Longitudinal Study},
+  author={Melzi, Pietro and Vera-Rodriguez, Ruben and Tolosana, Ruben and Sanz-Garcia, Ancor and Cecconi, Alberto and Ortega, Guillermo J and Jimenez-Borreguero, Luis Jesus},
+  journal={IRBM},
+  volume={44},
   number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+  pages={100811},
+  year={2023},
+  publisher={Elsevier},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  abstract={Artificial Intelligence (AI) in electrocardiogram (ECG) analysis helps to identify persons at risk of developing atrial fibrillation (AF) and reduces the risk for severe complications. Our aim is to investigate the performance of AI-based methods predicting future AF from sinus rhythm (SR) ECGs, according to different characteristics of patients, time intervals for prediction, and longitudinal measures.
+  We designed a retrospective, prognostic study to predict AF occurrence in patients from 12-lead SR ECGs. We classified patients in two groups, according to their ECGs: 3,761 developed AF and 22,896 presented only SR ECGs. We assessed the impact of age on the overall performance of deep neural network (DNN)-based systems, which consist in a variation of Residual Networks for time series. Then, we analysed how much in advance our system can predict AF from SR ECGs and the performance for different categories of patients with AUC and other metrics.
+  After balancing the age distribution between the two groups of patients, our model achieves AUC of 0.79 (0.72-0.86) without additional constraints, 0.83 (0.76-0.89) for ECGs recorded in the last six months before AF, and 0.87 (0.81-0.93) for patients with stable AF risk measures over time, with sensitivity of 90.62% (80.70-96.48) and diagnostic odd ratio of 20.49 (8.56-49.09).
+  This study shows the ability of DNNs to predict new onsets of AF from SR ECGs, with the best performance achieved for patients with stable AF risk score over time. The introduction of this time-based score opens new possibilities for AF prediction, thanks to the analysis of long-span time intervals and score stability.},
+  html={https://www.sciencedirect.com/science/article/pii/S195903182300060X},
+  preview={af.jpg}
+}
+
+@article{melzi2021analyzing,
+  title={Analyzing artificial intelligence systems for the prediction of atrial fibrillation from sinus-rhythm ECGs including demographics and feature visualization},
+  author={Melzi, Pietro and Tolosana, Ruben and Cecconi, Alberto and Sanz-Garcia, Ancor and Ortega, Guillermo J and Jimenez-Borreguero, Luis Jesus and Vera-Rodriguez, Ruben},
+  journal={Scientific Reports},
+  volume={11},
+  number={1},
+  pages={22786},
+  year={2021},
+  publisher={Nature Publishing Group UK London},
+  bibtex_show={true},
+  abstract={Atrial fibrillation (AF) is an abnormal heart rhythm, asymptomatic in many cases, that causes several health problems and mortality in population. This retrospective study evaluates the ability of different AI-based models to predict future episodes of AF from electrocardiograms (ECGs) recorded during normal sinus rhythm. Patients are divided into two classes according to AF occurrence or sinus rhythm permanence along their several ECGs registry. In the constrained scenario of balancing the age distributions between classes, our best AI model predicts future episodes of AF with area under the curve (AUC) 0.79 (0.72–0.86). Multiple scenarios and age-sex-specific groups of patients are considered, achieving best performance of prediction for males older than 70 years. These results point out the importance of considering different demographic groups in the analysis of AF prediction, showing considerable performance gaps among them. In addition to the demographic analysis, we apply feature visualization techniques to identify the most important portions of the ECG signals in the task of AF prediction, improving this way the interpretability and understanding of the AI models. These results and the simplicity of recording ECGs during check-ups add feasibility to clinical applications of AI-based models.},
+  html={https://www.nature.com/articles/s41598-021-02179-1},
+  preview={af.png}
+}
+
+@inproceedings{melzi2023exploring,
+  title={Exploring Transformers for On-Line Handwritten Signature Verification},
+  author={Melzi, Pietro and Tolosana, Ruben and Vera-Rodriguez, Ruben and Delgado-Santos, Paula and Stragapede, Giuseppe and Fierrez, Julian and Ortega-Garcia, Javier},
+  booktitle={Proceedings of the ACM international Conference on Mobile Human-Computer Interaction Workshops},
+  year={2023},
+  bibtex_show={true},
+  abstract={The application of mobile biometrics as a user-friendly authentication method has increased in the last years. Recent studies have proposed novel behavioral biometric recognition systems based on Transformers, which currently outperform the state of the art in several application scenarios. On-line handwritten signature verification aims to verify the identity of subjects, based on their biometric signatures acquired using electronic devices such as tablets or smartphones. This paper investigates the suitability of architectures based on recent Transformers for on-line signature verification. In particular, four different configurations are studied, two of them rely on the Vanilla Transformer encoder, and the two others have been successfully applied to the tasks of gait and activity recognition. We evaluate the four proposed configurations according to the experimental protocol proposed in the SVC-onGoing competition. The results obtained in our experiments are promising, and promote the use of Transformers for on-line signature verification.},
+  html={https://arxiv.org/abs/2307.01663},
+  preview={signature.jpg}
+}
+
+@article{melzi2022overview,
+  title={An overview of privacy-enhancing technologies in biometric recognition},
+  author={Melzi, Pietro and Rathgeb, Christian and Tolosana, Ruben and Vera-Rodriguez, Ruben and Busch, Christoph},
+  journal={arXiv preprint arXiv:2206.10465},
+  year={2022},
+  bibtex_show={true},
+  abstract={Privacy-enhancing technologies are technologies that implement fundamental data protection principles. With respect to biometric recognition, different types of privacy-enhancing technologies have been introduced for protecting stored biometric data which are generally classified as sensitive. In this regard, various taxonomies and conceptual categorizations have been proposed and standardization activities have been carried out. However, these efforts have mainly been devoted to certain sub-categories of privacy-enhancing technologies and therefore lack generalization. This work provides an overview of concepts of privacy-enhancing technologies for biometrics in a unified framework. Key aspects and differences between existing concepts are highlighted in detail at each processing step. Fundamental properties and limitations of existing approaches are discussed and related to data protection techniques and principles. Moreover, scenarios and methods for the assessment of privacy-enhancing technologies for biometrics are presented. This paper is meant as a point of entry to the field of biometric data protection and is directed towards experienced researchers as well as non-experts.},
+  html={https://arxiv.org/abs/2206.10465},
+  preview={pet.jpg}
+}
+
+@inproceedings{melzi2023multi,
+  title={Multi-IVE: Privacy Enhancement of Multiple Soft-Biometrics in Face Embeddings},
+  author={Melzi, Pietro and Shahreza, Hatef Otroshi and Rathgeb, Christian and Tolosana, Ruben and Vera-Rodriguez, Ruben and Fierrez, Julian and Marcel, S{\'e}bastien and Busch, Christoph},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision Workshops},
+  pages={323--331},
+  year={2023},
+  bibtex_show={true},
+  abstract={This study focuses on the protection of soft-biometric attributes related to the demographic information of individuals that can be extracted from compact representations of face images, called embeddings. We consider a state-of-the-art technology for soft-biometric privacy enhancement, Incremental Variable Elimination (IVE), and propose Multi-IVE, a new method based on IVE to secure multiple soft-biometric attributes simultaneously. Several aspects of this technology are investigated, proposing different approaches to effectively identify and discard multiple soft-biometric attributes contained in face embeddings. In particular, we consider a domain transformation using Principle Component Analysis (PCA), and apply IVE in the PCA domain. A complete analysis of the proposed Multi-IVE algorithm is carried out studying the embeddings generated by state-of-the-art face feature extractors, predicting soft-biometric attributes contained within them with multiple machine learning classifiers, and providing a cross-database evaluation. The results obtained show the possibility to simultaneously secure multiple soft-biometric attributes and support the application of embedding domain transformations before addressing the enhancement of soft-biometric privacy.},
+  html={https://openaccess.thecvf.com/content/WACV2023W/DVPBA/html/Melzi_Multi-IVE_Privacy_Enhancement_of_Multiple_Soft-Biometrics_in_Face_Embeddings_WACVW_2023_paper.html},
+  preview={mive.jpg}
+}
+
+@article{melzi2018deterministic,
+  title={Deterministic policy optimization: an approach to safe reinforcement learning},
+  author={Melzi, Pietro},
+  year={2018},
+  journal={Matser's Thesis at Politecnico di Milano},
+  bibtex_show={true},
+  abstract={In reinforcement learning, policy optimization algorithms normally rely on action randomization to make the learning problem easier and to guarantee a sufficient exploration of all the possible situations in the task. Action randomization allows to execute and evaluate a wide range of actions that otherwise may be neglected by the algorithm. However, this practice may be unacceptable in real-life applications, such as industrial ones, where safety is a concern and deviations from usual behavior are not welcome by stakeholders. There exist multiple and not exclusive definitions of safety in reinforcement learning, hence safety aspects can be modeled and incorporated in the tasks in different ways. We consider the challenging scenario in which a learning agent is deployed in the real world and must be able to improve on-line without performing any random action, to ensure safe exploration throughout the learning process. For the first time, to the best of our knowledge, we propose a truly deterministic policy optimization algorithm for continuous domains. To design this algorithm, we require the validity of some assumptions on the regularity of the environment, which we deem easy to satisfy in the scenarios of interest. We also use state aggregation to build an abstract model of the environment and exploit passive exploration, necessary to allow successful policy optimization. The proposed approach is tested on simulated continuous control tasks, both in the case of learning from scratch and in the case of having some prior knowledge of the problem. The results obtained from the experiments are promising and encourage the future development of the techniques presented in this work.},
+  html={https://www.politesi.polimi.it/handle/10589/154043},
+  preview={rl.jpg}
 }
