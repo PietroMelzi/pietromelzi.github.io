@@ -1,4 +1,4 @@
-#### Attended conferences
+#### :bulb: Attended conferences
 
 
 <table>

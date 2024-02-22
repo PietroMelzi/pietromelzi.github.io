@@ -7,6 +7,8 @@ nav: true
 nav_order: 2
 ---
 
+<p>:books: More information available on <a href="https://scholar.google.com/citations?user=iGAKK84AAAAJ&hl=it&oi=ao">my Google Scholar page</a>.</p>
+
 <!-- _pages/publications.md -->
 <div class="publications">
 

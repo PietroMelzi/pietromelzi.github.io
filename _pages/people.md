@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: Experience
-description: A compilation of experiences accumulated over the years, encompassing institutions where I have been enrolled or collaborated, as well as conference where I have presented my research and accomplishments.
+description: A collection of experiences accumulated over the years, encompassing institutions where I have been enrolled or collaborated, as well as conference where I have presented my research and accomplishments.
 nav: true
 nav_order: 7
 

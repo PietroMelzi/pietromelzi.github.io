@@ -2,12 +2,14 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of my projects.
+description: Here I collect a growing selection of my projects.
 nav: true
 nav_order: 3
 display_categories: [Personal, PhD, Master's]
 horizontal: false
 ---
+
+<p>:pushpin: More information available on <a href="https://github.com/PietroMelzi">my Github page</a>.</p>
 
 <!-- pages/projects.md -->
 <div class="projects">
