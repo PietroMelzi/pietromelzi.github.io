@@ -1,6 +1,6 @@
 #### :school: My institutions
 
-<table>
+<table style="pointer-events: none;">
   <tr>
     <td width="25%">
       <div>

@@ -1,7 +1,8 @@
 #### :bulb: Attended conferences
 
+<br />
 
-<table>
+<table style="pointer-events: none;">
   <tr>
     <td width="25%">
       <div>

@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Here I collect a growing selection of my projects.
+description: Here you can find a growing selection of projects realized in my free time and during my academic studies.
 nav: true
 nav_order: 3
 display_categories: [Personal, PhD, Master's]
