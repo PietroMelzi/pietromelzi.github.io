@@ -1,21 +1,20 @@
 #### :dart: My accomplishments
 
-
-<table>
+<table style="pointer-events: none;">
   <tr>
     <td width="33%">
       <div>
-        <p align="center"><img src="../assets/img/experiences/eab.png" style="width:90%;height:auto;"></p>
+        <p align="center"><img src="../assets/img/experiences/eab.png" style="width:80%;height:auto;"></p>
       </div>
     </td>
 	<td width="33%">
       <div>
-        <p align="center"><img src="../assets/img/experiences/wacv2024.png" style="width:90%;height:auto;"></p>
+        <p align="center"><img src="../assets/img/experiences/wacv2024.png" style="width:80%;height:auto;"></p>
       </div>
     </td>
     <td width="33%">
       <div>
-        <p align="center"><img src="../assets/img/experiences/iccv23.png" style="width:90%;height:auto;"></p>
+        <p align="center"><img src="../assets/img/experiences/iccv23.png" style="width:80%;height:auto;"></p>
       </div>
     </td>
   </tr>
@@ -35,7 +34,7 @@
   <tr>
     <td width="33%">
       <div>
-        <p align="center"><img src="../assets/img/experiences/secunet.png" style="width:90%;height:auto;"></p>
+        <p align="center"><img src="../assets/img/experiences/secunet.png" style="width:80%;height:auto;"></p>
       </div>
     </td>
 	<td width="33%">

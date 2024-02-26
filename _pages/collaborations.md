@@ -1,6 +1,8 @@
 #### :pray: My collaborations
 
-<table>
+<br />
+
+<table style="pointer-events: none;">
   <tr>
     <td width="33%">
       <div>
