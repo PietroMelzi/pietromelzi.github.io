@@ -16,12 +16,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, my name is Pietro! I'm Italian and currently based in the vibrant city of Madrid, where I'm approaching the completion of my PhD studies at Universidad Autónoma de Madrid.
+<b> Welcome! I'm Pietro, an Italian AI enthusiast currently based in Madrid.</b> I completed my PhD at the Universidad Autónoma de Madrid, and this space is dedicated to sharing my research passions, publications, ongoing projects, and professional experiences. My work primarily focuses on <b>Deep Learning, Computer Vision, Generative AI, LLMs, Reinforcement Learning, and Data Engineering</b>.
 
-Here, you'll find insights into my research passions, publications, ongoing projects, and professional experiences. My research interests span across diverse areas including <b> Deep Learning, Computer Vision, Generative AI, Biometrics, NLP, and Reinforcement Learning.</b> 
+During my PhD, I had the privilege of <a href='people'>collaborating with international scientists from both industry and academia, and presenting my research at prestigious conferences</a>. I'm now an AI Engineer at [Sparta Commodities](https://www.spartacommodities.com/), working remotely and applying cutting-edge LLM and data engineering technologies.
 
-During my PhD, <a href='people'>I've collaborated with numerous international scientists from both industry and academia, and presented research findings at prestigious conferences</a>. For my next chapter, <b> I'm seeking opportunities for continous learning with cutting-edge technologies in the world of AI.</b>
+Beyond the tech world, I’m passionate about fitness, including running, working out, hiking, and team sports. My personal best in the half marathon is 1 hour 28 minutes. I also love road trips, exploring new places, and leading a healthy lifestyle—some of my favorite destinations include Peru, Lanzarote, and Lapland. I’m always seeking to deepen my knowledge, particularly in AI, finance, and geography.
 
-Beyond academia, I stay active with running, working out, hiking, and team sports. I'm passionate about road trips and prioritize maintaining a healthy lifestyle. I read a lot, always aiming to broaden my knowledge, particularly in AI, finance, and geography.
-
-<b> Feel free to connect with me on social media—I welcome any opportunity for exchange and collaboration! </b>
+<b> Feel free to connect with me on social media—I'm always excited about new opportunities for collaboration and knowledge exchange! </b>
