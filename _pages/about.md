@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>PhD in Machine Learning and Computer Vision | Computer Science Engineer</b>
+subtitle: <b>AI Engineer | PhD in Machine Learning & Computer Vision | Curious mind, AI enthusiast, and lifelong learner</b>
 
 profile:
   align: right
@@ -16,10 +16,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<b> Welcome! I'm Pietro, an Italian AI enthusiast currently based in Madrid.</b> I completed my PhD at the Universidad Autónoma de Madrid, and this space is dedicated to sharing my research passions, publications, ongoing projects, and professional experiences. My work primarily focuses on <b>Deep Learning, Computer Vision, Generative AI, LLMs, Reinforcement Learning, and Data Engineering</b>.
+<b> Welcome! I'm Pietro, an Italian AI engineer and researcher currently living in Madrid.</b> I completed my PhD at the Universidad Autónoma de Madrid, and this site is a place where I share my passions in research, publications, projects, and professional experiences. My work primarily focuses on <b>deep learning, computer vision, generative AI, LLMs, reinforcement learning, and data engineering</b>.
 
-During my PhD, I had the privilege of <a href='people'>collaborating with international scientists from both industry and academia, and presenting my research at prestigious conferences</a>. I'm now an AI Engineer at [Sparta Commodities](https://www.spartacommodities.com/), working remotely and applying cutting-edge LLM and data engineering technologies.
+During my PhD, I had the chance to <a href='people'>collaborating with international scientists from academia and industry, and present my work at top conferences</a>. Today, I'm an AI Engineer at [Sparta Commodities](https://www.spartacommodities.com/), where I apply state-of-the-art LLM and data engineering techniques to real-world challenges.
 
-Beyond the tech world, I’m passionate about fitness, including running, working out, hiking, and team sports. My personal best in the half marathon is 1 hour 28 minutes. I also love road trips, exploring new places, and leading a healthy lifestyle—some of my favorite destinations include Peru, Lanzarote, and Lapland. I’m always seeking to deepen my knowledge, particularly in AI, finance, and geography.
+Outside of AI, I’m passionate about running, working out, hiking, team sports, and surf. My half marathon personal best is 1h25 and I am currently training for [my first marathon](https://www.valenciaciudaddelrunning.com/maraton/maraton/). I also love road trips, discovering new places, and keeping a healthy lifestyle. Some of my favorite journeys so far have taken me to Peru, Thailand, Lapland, and Canary Islands. I’m always curious and eager to learn more, especially in AI, finance, and geography.
 
-<b> Feel free to connect with me on social media—I'm always excited about new opportunities for collaboration and knowledge exchange! </b>
+To combine my passions for tech and sport, I created [PortalRunner](https://portalrunner.vercel.app/), a generator of training and nutrition plans. Through this project, I explored full-stack development, worked with a variety of technologies, and built an integration with the Strava API. In the future, I plan to expand it to cover more needs for runners.
+
+<b> Feel free to try [PortalRunner](https://portalrunner.vercel.app/) and connect with me on social media! </b>
