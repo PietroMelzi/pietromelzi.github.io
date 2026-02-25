@@ -1,8 +1,8 @@
 ---
 layout: about
-title: About
+title:
 permalink: /
-subtitle: <b>AI Engineer | PhD in Machine Learning & Computer Vision | Curious mind, AI enthusiast, and lifelong learner</b>
+subtitle: <b>AI Engineer | PhD in Machine Learning & Computer Vision</b>
 
 profile:
   align: right
@@ -16,12 +16,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<b> Welcome! I'm Pietro, an Italian AI engineer and researcher currently living in Madrid.</b> I completed my PhD at the Universidad Autónoma de Madrid, and this site is a place where I share my passions in research, publications, projects, and professional experiences. My work primarily focuses on <b>deep learning, computer vision, generative AI, LLMs, reinforcement learning, and data engineering</b>.
+My name is Pietro. I’m an Italian engineer and researcher currently living in Madrid. On this site, I share my professional journey and some of the things I enjoy building and learning along the way.
 
-During my PhD, I had the chance to <a href='people'>collaborating with international scientists from academia and industry, and present my work at top conferences</a>. Today, I'm an AI Engineer at [Sparta Commodities](https://www.spartacommodities.com/), where I apply state-of-the-art LLM and data engineering techniques to real-world challenges.
+I moved to Madrid in 2021 to start my PhD at Universidad Autónoma de Madrid. During my <b>PhD, concluded cum laude</b>, I had the chance to <a href="people">collaborate with international scientists from academia and industry and present my work at top conferences</a>. Today, I’m an AI Engineer at <a href="https://www.spartacommodities.com/">Sparta Commodities</a>, where I apply AI and LLM technologies to solve real-world problems and help build an <b>AI-first platform for commodity trading</b>.
 
-Outside of AI, I’m passionate about <b>running, working out, hiking, team sports, and surf</b>. My half marathon personal best is 1h25 and I am currently training for [my first marathon](https://www.valenciaciudaddelrunning.com/maraton/maraton/). I also love <b>road trips, discovering new places, and keeping a healthy lifestyle</b>. Some of my favorite journeys so far have taken me to Peru, Thailand, Lapland, and Canary Islands. I’m always curious and eager to learn more, especially in <b>AI, finance, and geography</b>.
+Outside of AI, I’m passionate about <b>running, working out, hiking, team sports, and surfing</b>. I’ve run <a href="/running/">several half marathons, trail races, and a marathon</a>, with personal bests of 1h25 (half) and 3h04 (full). I also love <b>road trips, discovering new places, and maintaining a healthy lifestyle</b>. Some favorite trips so far: <a href="/trips/">Peru, Thailand, and Costa Rica</a>. I’m always curious and eager to learn more, especially in <b>AI, finance, and geography</b>.
 
-To combine my passions for tech and sport, I created [PortalRunner](https://portalrunner.vercel.app/), a <b>generator of training and nutrition plans</b>. Through this project, I explored full-stack development, worked with a variety of technologies, and built an integration with the Strava API. In the future, I plan to expand it to cover more needs for runners.
+To combine my passions for tech and sport, I created <a href="https://portalrunner.vercel.app/">PortalRunner</a>, an <b>LLM-powered generator of training and nutrition plans</b>. Through this project, I’ve explored full-stack development with a variety of technologies, and I plan to keep expanding it to better support runners.
 
-<b> Feel free to try [PortalRunner](https://portalrunner.vercel.app/) and connect with me on social media! </b>
+<b>Feel free to try <a href="https://portalrunner.vercel.app/">PortalRunner</a> and connect with me on social media!</b>
