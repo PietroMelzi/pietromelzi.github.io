@@ -165,7 +165,7 @@ map: true
       { coords: [57.7089, 11.9746], label: 'Goteborg, Sweden' },
       { coords: [59.3293, 18.0686], label: 'Stockholm, Sweden' },
       { coords: [7.7407, 98.7784], label: 'Phi Phi Island, Thailand' },
-      { coords: [36.0133, 14.3236], label: 'Blue Lagoon, Malta' },
+      { coords: [36.0133, 14.3236], label: 'Comino, Malta' },
       { coords: [36.0443, 14.2512], label: 'Gozo, Malta' },
       { coords: [9.3924, -84.1398], label: 'Manuel Antonio, Costa Rica' },
     ];
