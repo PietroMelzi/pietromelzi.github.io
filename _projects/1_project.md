@@ -2,7 +2,7 @@
 layout: page
 title: PortalRunner
 description: Full-stack LLM-powered training and nutrition plan generator
-img: assets/img/proj_personal.jpg
+img: assets/img/proj_running.png
 redirect:
 importance: 1
 category: Personal
@@ -22,6 +22,8 @@ Users can generate training plans to reach a **target race time** or **improve o
 - Intensity  
 - Type of sport (running, cycling, swimming, etc.)  
 - Number of weeks
+
+![PortalRunner Screenshot](../../assets/img/pr1.jpg)
 
 **🥗 Nutrition Plans**
 
