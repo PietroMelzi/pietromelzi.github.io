@@ -23,7 +23,7 @@ Users can generate training plans to reach a **target race time** or **improve o
 - Type of sport (running, cycling, swimming, etc.)  
 - Number of weeks
 
-![PortalRunner Screenshot](../../assets/img/pr1.jpg)
+<img src="../../assets/img/pr1.jpg" alt="PortalRunner Screenshot" width="100%">
 
 **🥗 Nutrition Plans**
 
