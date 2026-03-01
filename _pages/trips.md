@@ -184,3 +184,89 @@ map: true
     });
   });
 </script>
+
+<hr />
+
+<h2 style="margin-bottom: 20px;">Gallery</h2>
+
+<table>
+  <tr>
+    <td width="50%">
+      <div>
+        <p align="center"><img src="../assets/img/personal/t1.jpg" style="width:80%;height:auto;"></p>
+      </div>
+    </td>
+	  <td width="50%">
+      <div>
+        <p align="center"><img src="../assets/img/personal/t2.jpg" style="width:80%;height:auto;"></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <div>
+        <p align="center">Amantani, Peru - 2024</p>
+      </div>
+    </td>
+	  <td width="50%">
+      <div>
+        <p align="center">Kiruna, Sweden - 2018</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <div>
+        <p align="center"><img src="../assets/img/personal/t3.jpg" style="width:80%;height:auto;"></p>
+      </div>
+    </td>
+	  <td width="50%">
+      <div>
+        <p align="center"><img src="../assets/img/personal/t4.jpg" style="width:80%;height:auto;"></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <div>
+        <p align="center">Albufeira, Portugal - 2023</p>
+      </div>
+    </td>
+	  <td width="50%">
+      <div>
+        <p align="center">Damnoen Saduak, Thailand - 2025</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <div>
+        <p align="center"><img src="../assets/img/personal/t5.jpg" style="width:80%;height:auto;"></p>
+      </div>
+    </td>
+	  <td width="50%">
+      <div>
+        <p align="center"><img src="../assets/img/personal/t6.jpg" style="width:80%;height:auto;"></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <div>
+        <p align="center">Chiang Mai, Thailand - 2025</p>
+      </div>
+    </td>
+	  <td width="50%">
+      <div>
+        <p align="center">Manuel Antonio, Costa Rica - 2026</p>
+      </div>
+    </td>
+  </tr>
+
+
+</table>

@@ -72,3 +72,63 @@ nav: false
     </tr>
   </tbody>
 </table>
+
+<hr />
+
+<h2 style="margin-bottom: 20px;">Gallery</h2>
+
+<table>
+  <tr>
+    <td width="50%">
+      <div>
+        <p align="center"><img src="../assets/img/personal/r1.jpg" style="width:80%;height:auto;"></p>
+      </div>
+    </td>
+	  <td width="50%">
+      <div>
+        <p align="center"><img src="../assets/img/personal/r2.jpg" style="width:80%;height:auto;"></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <div>
+        <p align="center">Madrid, Spain - 2025</p>
+      </div>
+    </td>
+	  <td width="50%">
+      <div>
+        <p align="center">Premana, Italy - 2025</p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <div>
+        <p align="center"><img src="../assets/img/personal/r3.jpg" style="width:80%;height:auto;"></p>
+      </div>
+    </td>
+	  <td width="50%">
+      <div>
+        <p align="center"><img src="../assets/img/personal/r4.jpg" style="width:80%;height:auto;"></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <div>
+        <p align="center">Mandello del Lario, Italy - 2024</p>
+      </div>
+    </td>
+	  <td width="50%">
+      <div>
+        <p align="center">Valencia, Spain - 2025</p>
+      </div>
+    </td>
+  </tr>
+
+
+</table>
