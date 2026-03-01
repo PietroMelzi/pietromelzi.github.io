@@ -2,12 +2,9 @@
 layout: page
 title: Running
 permalink: /running/
-description: 
+description: Some of the races I’ve run so far
 nav: false
 ---
-
-<p>
-  Since I was a kid, I’ve always enjoyed <b>playing football and basketball with friends and doing athletics</b>. I started with 1000&nbsp;m runs and high jump, and over the years I became more and more <b>passionate about longer distance</b> races. Some of the races I’ve run so far:</p>
 
 <table class="table table-sm">
   <thead>
@@ -62,13 +59,13 @@ nav: false
       <td><b>1:25:12</b></td>
     </tr>
     <tr>
-      <td><a href="https://www.endu.net/it/events/giir-di-mont/results">Mini Giir di Mont 2025</a></td>
+      <td><a href="https://www.endu.net/it/events/giir-di-mont/results">Mini Giir di Mont</a></td>
       <td>2025-07-27</td>
       <td>Trail running Km 18 - 1500m EG</td>
       <td>2:24:41</td>
     </tr>
     <tr>
-      <td><a href="https://www.valenciaciudaddelrunning.com/maraton/clasificaciones-maraton-2025/">Maratón Valencia 2025</a></td>
+      <td><a href="https://www.valenciaciudaddelrunning.com/maraton/clasificaciones-maraton-2025/">Maratón Valencia</a></td>
       <td>2025-12-07</td>
       <td>Marathon</td>
       <td><b>3:04:11</b></td>
