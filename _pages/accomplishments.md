@@ -1,6 +1,6 @@
 #### :dart: My accomplishments
 
-<table style="pointer-events: none;">
+<table>
   <tr>
     <td width="33%">
       <div>
