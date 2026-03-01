@@ -10,6 +10,8 @@ category: Personal
 
 **PortalRunner** is a web application I built to help runners create personalized **training** and **nutrition** plans based on their goals and preferences. Instead of following generic programs, users can generate structured plans tailored to their race targets, fitness level, and lifestyle.
 
+Website: [https://portalrunner.vercel.app](https://portalrunner.vercel.app/)
+
 ---
 
 ## Functionalities
